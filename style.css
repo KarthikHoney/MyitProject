@@ -115,3 +115,56 @@ input{
     font-weight: bold;
     text-align: center;
 }
+
+.Dashboardmain{
+    display: flex;
+
+}
+
+.DASHBOARDContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    /* border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    height: 100vh;
+    max-width: 30%;
+    background-image: radial-gradient(circle, rgba(196, 87, 87, 0.25) 0%, rgba(227, 27, 27, 0.25) 100%);
+}
+.dash{
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(248, 243, 243);
+    color: black;
+    cursor: pointer;
+}
+.dashboardItemsContainer{
+    background-image: linear-gradient(to right, red, navy);
+    height: 100vh;
+    min-width: 90%;
+    max-width: 100%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
