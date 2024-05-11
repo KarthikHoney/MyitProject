@@ -168,3 +168,25 @@ input{
     font-size: 40px;
     font-weight: bold;
 }
+
+.dataContains{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 220px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+.headPara{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dashboardItems{
+    display: flex;
+    
+}
