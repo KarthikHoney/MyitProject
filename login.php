@@ -15,5 +15,5 @@ if ($result) {
     echo "Username or password incorrect";
 }
 
-mysqli_close($conn);
+// mysqli_close($conn);
 ?>
